@@ -12,7 +12,7 @@ spec:
           app: mynginx
     spec:
        containers:
-          name: maha-container
+       -  name: maha-container
           image: nginx
           ports: 
-            ContainerPort: 80
+             containerPort: 80
