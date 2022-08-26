@@ -4,7 +4,7 @@ metadata:
  name: myjava-srv
  labels:
     app: javaapp
-    version: 2.6.1
+    version: 2.6.2
 spec:
   type: NodePort
   ports:
@@ -13,5 +13,5 @@ spec:
     protocol: TCP
   selector:
     app: javaapp
-    version: 2.6.1
+    version: 2.6.2
 
