@@ -6,15 +6,15 @@ spec:
   replicas: 3
   selector: 
     app: javaapp
-    version: 2.6.3
+    version: 2.6.4
   template:
     metadata:
        labels:
           app: javaapp
-          version: 2.6.3
+          version: 2.6.4
     spec:
        containers:
        -  name: myjava-container
-          image: maha4iac/myjavaaplication:1
+          image: maha4iac/myjavaaplication:2
           ports: 
             - containerPort: 8080
